@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/* Enable class-based dark mode for Tailwind v4 */
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-poppins: var(--font-poppins);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a;
+}
+
+.dark {
+  --background: #020617;
+  --foreground: #f8fafc;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+/* Fix for potential invisible text in light mode when navbar is transparent */
+.navbar-transparent-light {
+  color: #0f172a !important;
+}
+
+.navbar-transparent-dark {
+  color: #ffffff !important;
+}
+
+/* Utility for glassmorphism that works well in both themes */
+.glass-panel {
+  @apply bg-white/70 dark:bg-black/40 backdrop-blur-xl border border-gray-200/50 dark:border-white/10;
+}
+
+*:focus-visible {
+  outline: 2px solid theme('colors.indigo.500');
+  outline-offset: 2px;
+}
