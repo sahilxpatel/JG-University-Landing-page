@@ -20,7 +20,7 @@ export default function Partners() {
   const doublePartners = [...partners, ...partners, ...partners];
 
   return (
-    <section id="partners" className="py-24 bg-gray-50 dark:bg-[#020617] border-y border-gray-100 dark:border-white/5 overflow-hidden transition-colors duration-300">
+    <section id="partners" className="py-12 bg-gray-50 dark:bg-[#020617] border-y border-gray-100 dark:border-white/5 overflow-hidden transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-6 mb-12">
         <div className="text-center">
           <motion.p

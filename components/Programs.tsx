@@ -220,7 +220,7 @@ export default function Programs() {
   }, [activeCategory, searchQuery]);
 
   return (
-    <section id="programs" className="py-32 bg-white dark:bg-[#020617] transition-colors relative overflow-hidden">
+    <section id="programs" className="py-16 bg-white dark:bg-[#020617] transition-colors relative overflow-hidden">
       {/* Background Decor */}
       <div className="absolute top-1/4 right-0 w-[500px] h-[500px] bg-indigo-600/5 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-1/4 left-0 w-[500px] h-[500px] bg-purple-600/5 rounded-full blur-[120px] pointer-events-none" />

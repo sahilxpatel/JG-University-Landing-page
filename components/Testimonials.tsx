@@ -62,7 +62,7 @@ export default function Testimonials() {
   };
 
   return (
-    <section id="testimonials" className="py-32 bg-white dark:bg-[#020617] text-gray-900 dark:text-white relative overflow-hidden transition-colors duration-300">
+    <section id="testimonials" className="py-16 bg-white dark:bg-[#020617] text-gray-900 dark:text-white relative overflow-hidden transition-colors duration-300">
       <div className="absolute top-[-10%] right-[-10%] w-[40%] h-[40%] bg-purple-600/10 rounded-full blur-[120px]" />
       <div className="absolute bottom-[-10%] left-[-10%] w-[40%] h-[40%] bg-indigo-600/10 rounded-full blur-[120px]" />
 

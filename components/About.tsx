@@ -34,7 +34,7 @@ const Counter = ({ value, suffix = "" }: { value: number; suffix?: string }) => 
 
 export default function About() {
   return (
-    <section id="about" className="py-32 bg-white dark:bg-[#020617] text-gray-900 dark:text-white relative overflow-hidden transition-colors duration-300">
+    <section id="about" className="py-16 bg-white dark:bg-[#020617] text-gray-900 dark:text-white relative overflow-hidden transition-colors duration-300">
       {/* Decorative background element */}
       <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[500px] h-[500px] bg-indigo-600/10 rounded-full blur-[120px] pointer-events-none" />
 

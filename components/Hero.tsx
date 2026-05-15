@@ -15,7 +15,7 @@ export default function Hero() {
   return (
     <section 
       ref={containerRef}
-      className="min-h-screen flex items-center relative overflow-hidden bg-white dark:bg-[#020617] transition-colors duration-300 pt-20"
+      className="relative overflow-hidden bg-white dark:bg-[#020617] transition-colors duration-300 pt-32 pb-16"
     >
       {/* Animated Background Blobs */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">

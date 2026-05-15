@@ -11,7 +11,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-50 dark:bg-[#020617] text-gray-600 dark:text-gray-400 py-24 border-t border-gray-200 dark:border-white/5 relative overflow-hidden transition-colors duration-300">
+    <footer className="bg-gray-50 dark:bg-[#020617] text-gray-600 dark:text-gray-400 py-16 border-t border-gray-200 dark:border-white/5 relative overflow-hidden transition-colors duration-300">
       {/* Background decoration */}
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-indigo-600/5 rounded-full blur-[100px] pointer-events-none" />
 
