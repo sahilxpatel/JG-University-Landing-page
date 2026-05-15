@@ -1,0 +1,53 @@
+"use client";
+
+import { motion, AnimatePresence } from "framer-motion";
+import { useEffect, useState } from "react";
+
+export default function LoadingScreen() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 2000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  return (
+    <AnimatePresence>
+      {loading && (
+        <motion.div
+          initial={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.8, ease: "easeInOut" }}
+          className="fixed inset-0 z-[200] flex items-center justify-center bg-white dark:bg-[#020617]"
+        >
+          <div className="flex flex-col items-center">
+            <motion.div
+              initial={{ scale: 0.8, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              transition={{
+                duration: 0.5,
+                repeat: Infinity,
+                repeatType: "reverse",
+              }}
+              className="text-4xl md:text-6xl font-black text-indigo-600 tracking-tighter"
+            >
+              JG
+            </motion.div>
+            <motion.div
+              initial={{ width: 0 }}
+              animate={{ width: "100%" }}
+              transition={{ duration: 1.5, ease: "easeInOut" }}
+              className="h-1 bg-indigo-600 mt-4 rounded-full w-48 overflow-hidden"
+            >
+              <motion.div
+                animate={{ x: ["-100%", "100%"] }}
+                transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
+                className="w-full h-full bg-white/30"
+              />
+            </motion.div>
+          </div>
+        </motion.div>
+      )}
+    </AnimatePresence>
+  );
+}
