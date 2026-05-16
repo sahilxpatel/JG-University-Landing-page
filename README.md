@@ -4,6 +4,11 @@ A premium, high-performance landing page for JG University, built with modern we
 
 ![JG University Header](./public/assets/jg-logo.svg)
 
+## 🌐 Live Demo
+
+The project is currently hosted and available for viewing at:
+**[jg-university-landing-page-two.vercel.app](https://jg-university-landing-page-two.vercel.app/)**
+
 ## 📋 Overview
 
 The JG University Landing Page is a modern responsive landing page designed to showcase the university's academic excellence, industry collaborations, and vibrant campus life. It features a sleek, theme-aware design (Light/Dark mode) and interactive components that engage prospective students and partners.
@@ -34,8 +39,8 @@ This project was built to redesign and modernize the JG University website exper
 
 ## 📸 Screenshots
 
-|             Light Hero              |             Dark Hero             |
-| :---------------------------------: | :-------------------------------: |
+|                 Light Hero                  |                 Dark Hero                 |
+| :-----------------------------------------: | :---------------------------------------: |
 | ![Light Hero](./public/assets/SS/Light.png) | ![Dark Hero](./public/assets/SS/Dark.png) |
 
 ### Full Gallery
@@ -80,11 +85,6 @@ Follow these steps to set up the project locally:
    ```bash
    npm run build
    ```
-
-## 🌐 Live Demo
-
-The project is currently hosted and available for viewing at:
-**[jg-university-landing-page-two.vercel.app](https://jg-university-landing-page-two.vercel.app/)**
 
 ## 📂 Folder Structure
 
