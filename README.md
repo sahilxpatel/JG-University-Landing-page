@@ -34,27 +34,30 @@ This project was built to redesign and modernize the JG University website exper
 
 ## 📸 Screenshots
 
-| Light Mode | Dark Mode |
-|------------|-----------|
+| Light Mode                   | Dark Mode                   |
+| ---------------------------- | --------------------------- |
 | ![Light Hero](/assets/7.jpg) | ![Dark Hero](/assets/8.jpg) |
-| *Modern Hero Section* | *Immersive Dark Aesthetics* |
+| _Modern Hero Section_        | _Immersive Dark Aesthetics_ |
 
 ## 🛠️ Installation Steps
 
 Follow these steps to set up the project locally:
 
 1. **Clone the repository:**
+
    ```bash
    git clone git@github.com:sahilxpatel/JG-University-Landing-page.git
    cd JG-University-Landing-page
    ```
 
 2. **Install dependencies:**
+
    ```bash
    npm install
    ```
 
 3. **Run the development server:**
+
    ```bash
    npm run dev
    ```
@@ -67,7 +70,7 @@ Follow these steps to set up the project locally:
 ## 🌐 Live Demo
 
 The project is currently hosted and available for viewing at:
-**[Insert Deployment Link Here]**
+**[jg-university-landing-page-two.vercel.app](https://jg-university-landing-page-two.vercel.app/)**
 
 ## 📂 Folder Structure
 
