@@ -34,10 +34,22 @@ This project was built to redesign and modernize the JG University website exper
 
 ## 📸 Screenshots
 
-| Light Mode                   | Dark Mode                   |
-| ---------------------------- | --------------------------- |
-| ![Light Hero](/assets/7.jpg) | ![Dark Hero](/assets/8.jpg) |
-| _Modern Hero Section_        | _Immersive Dark Aesthetics_ |
+| Light Hero | Dark Hero |
+| :---: | :---: |
+| ![Light Hero](/assets/SS/1.png) | ![Dark Hero](/assets/SS/2.png) |
+
+### Full Gallery
+
+<div align="center">
+  <img src="/assets/SS/3.png" width="45%" />
+  <img src="/assets/SS/4.png" width="45%" />
+  <img src="/assets/SS/5.png" width="45%" />
+  <img src="/assets/SS/6.png" width="45%" />
+  <img src="/assets/SS/7.png" width="45%" />
+  <img src="/assets/SS/8.png" width="45%" />
+  <img src="/assets/SS/9.png" width="45%" />
+  <img src="/assets/SS/10.png" width="45%" />
+</div>
 
 ## 🛠️ Installation Steps
 
