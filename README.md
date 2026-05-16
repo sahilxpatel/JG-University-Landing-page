@@ -2,7 +2,7 @@
 
 A premium, high-performance landing page for JG University, built with modern web technologies to provide an immersive experience inspired by official JG University information and branding.
 
-![JG University Header](/assets/jg-logo.svg)
+![JG University Header](./public/assets/jg-logo.svg)
 
 ## 📋 Overview
 
@@ -34,21 +34,23 @@ This project was built to redesign and modernize the JG University website exper
 
 ## 📸 Screenshots
 
-| Light Hero | Dark Hero |
-| :---: | :---: |
-| ![Light Hero](/assets/SS/1.png) | ![Dark Hero](/assets/SS/2.png) |
+|             Light Hero              |             Dark Hero             |
+| :---------------------------------: | :-------------------------------: |
+| ![Light Hero](./public/assets/SS/Light.png) | ![Dark Hero](./public/assets/SS/Dark.png) |
 
 ### Full Gallery
 
 <div align="center">
-  <img src="/assets/SS/3.png" width="45%" />
-  <img src="/assets/SS/4.png" width="45%" />
-  <img src="/assets/SS/5.png" width="45%" />
-  <img src="/assets/SS/6.png" width="45%" />
-  <img src="/assets/SS/7.png" width="45%" />
-  <img src="/assets/SS/8.png" width="45%" />
-  <img src="/assets/SS/9.png" width="45%" />
-  <img src="/assets/SS/10.png" width="45%" />
+  <img src="./public/assets/SS/1.png" width="45%" />
+  <img src="./public/assets/SS/2.png" width="45%" />
+  <img src="./public/assets/SS/3.png" width="45%" />
+  <img src="./public/assets/SS/4.png" width="45%" />
+  <img src="./public/assets/SS/5.png" width="45%" />
+  <img src="./public/assets/SS/6.png" width="45%" />
+  <img src="./public/assets/SS/7.png" width="45%" />
+  <img src="./public/assets/SS/8.png" width="45%" />
+  <img src="./public/assets/SS/9.png" width="45%" />
+  <img src="./public/assets/SS/10.png" width="45%" />
 </div>
 
 ## 🛠️ Installation Steps
