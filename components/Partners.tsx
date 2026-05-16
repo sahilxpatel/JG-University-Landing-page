@@ -4,16 +4,16 @@ import { motion } from "framer-motion";
 
 export default function Partners() {
   const partners = [
-    { name: "IBM", logo: "https://jguni.in/images/ibm.png" },
-    { name: "ISRO", logo: "https://jguni.in/images/isro.png" },
-    { name: "SAC", logo: "https://jguni.in/images/sac.png" },
-    { name: "Yudiz", logo: "https://jguni.in/images/yudiz.png" },
-    { name: "Dev", logo: "https://jguni.in/images/dev.png" },
-    { name: "Aventure", logo: "https://jguni.in/images/aventure.png" },
-    { name: "Samy", logo: "https://jguni.in/images/samy.png" },
-    { name: "Asian African", logo: "https://jguni.in/images/asian-african.png" },
-    { name: "Virtual Height", logo: "https://jguni.in/images/virtual-height.png" },
-    { name: "Coding", logo: "https://jguni.in/images/coding.png" },
+    { name: "IBM", logo: "/assets/ibm.png" },
+    { name: "ISRO", logo: "/assets/isro.png" },
+    { name: "SAC", logo: "/assets/sac.png" },
+    { name: "Yudiz", logo: "/assets/yudiz.png" },
+    { name: "Dev", logo: "/assets/dev.png" },
+    { name: "Aventure", logo: "/assets/aventure.png" },
+    { name: "Samy", logo: "/assets/samy.png" },
+    { name: "Asian African", logo: "/assets/asian-african.png" },
+    { name: "Virtual Height", logo: "/assets/virtual-height.png" },
+    { name: "Coding", logo: "/assets/coding.png" },
   ];
 
   // Duplicate for seamless marquee

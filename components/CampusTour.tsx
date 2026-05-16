@@ -5,14 +5,14 @@ import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const images = [
-  "https://jguni.in/images/campus/7.jpg",
-  "https://jguni.in/images/campus/8.jpg",
-  "https://jguni.in/images/campus/9.jpg",
-  "https://jguni.in/images/campus/10.jpg",
-  "https://jguni.in/images/campus/11.jpg",
-  "https://jguni.in/images/campus/3.jpg",
-  "https://jguni.in/images/CRM08221.JPG",
-  "https://jguni.in/images/1.png"
+  "/assets/7.jpg",
+  "/assets/8.jpg",
+  "/assets/9.jpg",
+  "/assets/10.jpg",
+  "/assets/11.jpg",
+  "/assets/3.jpg",
+  "/assets/CRM08221.jpeg",
+  "/assets/1.png"
 ];
 
 interface CampusTourProps {

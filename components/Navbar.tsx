@@ -85,7 +85,7 @@ export default function Navbar() {
             className="w-10 h-10 bg-white rounded-xl p-1 shadow-lg group-hover:scale-110 transition-transform"
           >
             <img 
-              src="https://jguni.in/images/jg-logo.svg" 
+              src="/assets/jg-logo.svg" 
               alt="JG Logo" 
               className="w-full h-full object-contain"
             />

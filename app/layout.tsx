@@ -12,8 +12,8 @@ export const metadata: Metadata = {
   title: "JG University | Empowering Future Leaders",
   description: "Modern education powered by innovation and industry-focused learning at JG University.",
   icons: {
-    icon: "https://jguni.in/images/jg-logo.svg",
-    apple: "https://jguni.in/images/jg-logo.svg",
+    icon: "/assets/jg-logo.svg",
+    apple: "/assets/jg-logo.svg",
   },
 };
 

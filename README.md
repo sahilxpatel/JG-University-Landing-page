@@ -2,7 +2,7 @@
 
 A premium, high-performance landing page for JG University, built with modern web technologies to provide an immersive and factually accurate user experience.
 
-![JG University Header](https://jguni.in/images/jg-logo.svg)
+![JG University Header](/assets/jg-logo.svg)
 
 ## 📋 Overview
 
@@ -32,7 +32,7 @@ The JG University Landing Page is a state-of-the-art web application designed to
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-| ![Light Hero](https://jguni.in/images/campus/7.jpg) | ![Dark Hero](https://jguni.in/images/campus/8.jpg) |
+| ![Light Hero](/assets/7.jpg) | ![Dark Hero](/assets/8.jpg) |
 | *Modern Hero Section* | *Immersive Dark Aesthetics* |
 
 ## 🛠️ Installation Steps

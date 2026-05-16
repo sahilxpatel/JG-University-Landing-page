@@ -21,7 +21,7 @@ export default function Footer() {
             <div className="flex items-center gap-4 mb-8">
               <div className="w-12 h-12 bg-white rounded-2xl p-1 shadow-xl">
                 <img 
-                  src="https://jguni.in/images/jg-logo.svg" 
+                  src="/assets/jg-logo.svg" 
                   alt="JG Logo" 
                   className="w-full h-full object-contain"
                 />
