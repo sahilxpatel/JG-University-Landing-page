@@ -9,6 +9,19 @@ A premium, high-performance landing page for JG University, built with modern we
 The project is currently hosted and available for viewing at:
 **[jg-university-landing-page-two.vercel.app](https://jg-university-landing-page-two.vercel.app/)**
 
+## 🎥 Demo Video
+
+Watch the full project walkthrough here:
+
+[▶️ View Demo Video](https://drive.google.com/file/d/1QHtsY_2ZawcsrS02vrukZoa7kC5AZYAR/view?usp=sharing)
+
+The demo includes:
+- Desktop View
+- Mobile Responsive View
+- Animations & Interactions
+- Complete Landing Page Walkthrough
+
+
 ## 📋 Overview
 
 The JG University Landing Page is a modern responsive landing page designed to showcase the university's academic excellence, industry collaborations, and vibrant campus life. It features a sleek, theme-aware design (Light/Dark mode) and interactive components that engage prospective students and partners.
